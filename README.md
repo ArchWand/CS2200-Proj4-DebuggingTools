@@ -93,11 +93,11 @@ cpu_id that a function is called with.
 For more information about how to use debug.h, read the comments in the file
 itself. Implementation is in debug.c.
 
-# Local Autograder
+## Local Autograder
 An autograder was provided via GradeScope. However, this solution ran slowly,
 and would give often useless errors. Thus, I created `local-autograder.py`.
 
-## Running
+### Running
 Depends on python 3. Should be placed in the same directory as the compiled
 `os-sim` binary, or you can modify the `BIN` variable to include a path to the
 binary.
